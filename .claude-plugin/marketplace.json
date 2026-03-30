@@ -15,7 +15,7 @@
     {
       "name": "loopty",
       "source": {
-        "type": "url",
+        "source": "url",
         "url": "https://github.com/codybrom/loopty.git"
       },
       "description": "Iterative AI development loop for Claude Code — spins up isolated agents in a loop, each building on the journal notes of the previous one.",
