@@ -7,7 +7,8 @@ You write a goal. Loopty spins up a fresh Claude agent, lets it work for a fixed
 ## Install
 
 ```bash
-claude install github:codybrom/loopty
+/plugin marketplace add codybrom/loopty
+/plugin install loopty@loopty-plugins
 ```
 
 Use `/loopty` in any project. It bootstraps itself on first run.
