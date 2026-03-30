@@ -1,0 +1,9 @@
+Improve the performance of the JSON parser in src/parser.ts.
+
+## Success criteria
+- Benchmark in tests/bench.ts should show >20% improvement over baseline
+- All existing tests must continue to pass
+
+## Constraints
+- Do not add new dependencies
+- Keep the API surface identical

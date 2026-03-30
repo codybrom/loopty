@@ -1,0 +1,4 @@
+# loopty runtime data
+.loopty/journal/
+.loopty/last-run-summary.md
+.loopty/lock.d/

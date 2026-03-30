@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "loopty-plugins",
+  "owner": {
+    "name": "Cody Bromley",
+    "url": "https://github.com/codybrom"
+  },
+  "metadata": {
+    "description": "Official loopty plugin marketplace",
+    "version": "1.0.0",
+    "homepage": "https://github.com/codybrom/loopty",
+    "repository": "https://github.com/codybrom/loopty"
+  },
+  "plugins": [
+    {
+      "name": "loopty",
+      "source": {
+        "type": "url",
+        "url": "https://github.com/codybrom/loopty.git"
+      },
+      "description": "Iterative AI development loop for Claude Code — spins up isolated agents in a loop, each building on the journal notes of the previous one.",
+      "version": "0.1.0",
+      "strict": true
+    }
+  ]
+}

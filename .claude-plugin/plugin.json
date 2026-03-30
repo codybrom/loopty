@@ -1,0 +1,37 @@
+{
+  "name": "loopty",
+  "version": "0.1.0",
+  "description": "Iterative AI development loop for Claude Code — spins up isolated agents in a loop, each building on the journal notes of the previous one.",
+  "author": {
+    "name": "Cody Bromley",
+    "url": "https://github.com/codybrom"
+  },
+  "homepage": "https://github.com/codybrom/loopty",
+  "repository": "https://github.com/codybrom/loopty",
+  "license": "MIT",
+  "keywords": [
+    "iterative",
+    "development",
+    "loop",
+    "agent"
+  ],
+  "skills": [
+    {
+      "name": "loopty",
+      "path": "skills/loopty/SKILL.md"
+    }
+  ],
+  "commands": [
+    {
+      "name": "loopty",
+      "path": ".claude/commands/loopty.md"
+    }
+  ],
+  "files": [
+    "loopty.sh",
+    "install.sh",
+    "skills/loopty/SKILL.md",
+    ".claude/commands/loopty.md",
+    ".loopty/prompt.md.example"
+  ]
+}
