@@ -895,7 +895,7 @@ while true; do
 "
   fi
 
-  for f in "${ALL_JOURNALS[@]}"; do
+  for f in ${ALL_JOURNALS[@]+"${ALL_JOURNALS[@]}"}; do
     PREV_COUNT=$((PREV_COUNT + 1))
     if [ "$PREV_COUNT" -le 3 ]; then
       PREV_NOTES+="
@@ -1156,7 +1156,7 @@ See $JOURNAL_FILE for details." 2>/dev/null || log "  (commit failed — check g
 
     # Check for zero-change stall
     ZERO_COUNT=0
-    for rj in "${RECENT_JOURNALS[@]:0:5}"; do
+    for rj in ${RECENT_JOURNALS[@]+"${RECENT_JOURNALS[@]:0:5}"}; do
       rj_files=$(fm_val "$rj" files_changed "0")
       [ "$rj_files" -eq 0 ] 2>/dev/null && ZERO_COUNT=$((ZERO_COUNT + 1)) || break
     done
